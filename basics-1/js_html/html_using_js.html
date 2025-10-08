@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML using JS</title>
+</head>
+<body>
+    
+    <div id="root">
+
+    </div>
+
+    <script>
+        // creating the element
+        const heading = document.createElement("h1");
+        // inserting the content in the element
+        heading.innerHTML = "HTML using JS";
+        // get the div to insert it
+        const root = document.getElementById("root");
+        // insert the element in the div as child
+        root.appendChild(heading);
+    </script>
+</body>
+</html>
