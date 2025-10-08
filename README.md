@@ -1,2 +1,2 @@
-- [ ] initialised the project with npm
-- [ ] installed parcel 
+- [x] initialised the project with npm
+- [x] installed parcel 
