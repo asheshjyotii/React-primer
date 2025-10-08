@@ -1,0 +1,22 @@
+{
+  "name": "react-primer",
+  "version": "1.0.0",
+  "description": "the starting primer for react ",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asheshjyotii/React-primer.git"
+  },
+  "author": "asheshjyoti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asheshjyotii/React-primer/issues"
+  },
+  "homepage": "https://github.com/asheshjyotii/React-primer#readme",
+  "devDependencies": {
+    "parcel": "^2.16.0"
+  }
+}

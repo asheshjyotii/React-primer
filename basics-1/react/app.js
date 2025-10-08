@@ -13,7 +13,7 @@ React.createElement("div",{id:"parent"}, // parent
     ),
         React.createElement("div", {id:"child2"},
             [
-                React.createElement("H1", {id:"heading"},"Bye react 👋"),
+                React.createElement("H1", {id:"heading"},"Bye React 👋"),
                 React.createElement("h3",{id:"sub-heading"}, "Getting used to it...step by step...")
             ]
     )
