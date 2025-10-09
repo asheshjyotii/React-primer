@@ -2,6 +2,9 @@
   "name": "react-primer",
   "version": "1.0.0",
   "description": "the starting primer for react ",
+  "targets":{
+    "main" : false
+  },
   "main": "app.js",
   "scripts": {
     "test": "jest"
@@ -18,5 +21,8 @@
   "homepage": "https://github.com/asheshjyotii/React-primer#readme",
   "devDependencies": {
     "parcel": "^2.16.0"
-  }
+  },
+  "browserlist":[
+    "last 2 version"
+  ]
 }

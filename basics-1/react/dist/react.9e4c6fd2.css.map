@@ -1,0 +1,1 @@
+{"mappings":"AAAA;;;;;AAIA","sources":["index.css"],"sourcesContent":["#heading {\n    color: darkgreen;\n    font-family: monospace;\n}\n#sub-heading {\n    color: darkblue;\n    font-family: monospace;\n}"],"names":[],"version":3,"file":"react.9e4c6fd2.css.map","sourceRoot":"/__parcel_source_root/"}
