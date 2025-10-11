@@ -1,0 +1,20 @@
+{
+  "name": "bowl",
+  "version": "1.0.0",
+  "description": "This is a food ordering app (first react app)",
+  "main": "index.js",
+  "targets":{
+    "main": false
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html"
+  },
+  "author": "asheshjyoti",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.16.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  }
+}

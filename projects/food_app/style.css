@@ -1,0 +1,9 @@
+.logo-img {
+    width: 100px;
+}
+.logo-name {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo-container {
+    display: flex;
+}
