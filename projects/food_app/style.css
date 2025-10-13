@@ -1,9 +1,161 @@
+.body {
+    padding-left: 7%;
+
+
+}
+.restaurant-card-container{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.card-structure {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 28px;
+}
+
 .logo-img {
-    width: 100px;
+    height: 50px;
 }
 .logo-name {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:monospace;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size:30px;
+    font-weight: 800;
 }
 .logo-container {
     display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    
+}
+.menu-items>ul {
+    display:flex;
+    align-items: center;
+    
+}
+.menu-items>ul>li{
+    margin-left: 20px;
+    margin-right: 20px;
+    list-style-type: none;
+    font-family: monospace;
+    font-size: 16px;
+}
+.menu-items>ul>input{
+    margin-left: 10pxpx;
+    margin-right: 2px;
+    
+}
+.menu-items>ul>button{
+    margin-left: 0px;
+    margin-right: 10px;
+}
+.cart-img{
+    height: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* search box */
+
+.search {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.search-box {
+    margin-left: auto;
+}
+.search-box-internal{
+    width: 150px;
+    height: 25px;
+    border: 2px solid gray;
+    border-radius: 6px;
+    
+
+}
+.search-button {
+    width: 100px;
+    height: 25px;
+    border-radius: 6px;
+    font-family: monospace;
+}
+
+/* restaurant card */
+
+.restaurant-img-container{
+    width: 280px;
+    height: 200px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.restaurant-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+    
+
+}
+
+/* .restaurant-details{
+    align-items: center;
+} */
+.restaurant-other-details {
+    display: flex;
+    align-items: center;
+    padding-top: 2px;
+}
+
+.restaurant-name{
+    font-family: monospace;
+    font-size: 24px;
+    font-weight: 800;
+    padding-top: 8px;
+    padding-left: 20px;
+}
+.rating-icon {
+    height: 100%;
+    width: 24px;
+    /* padding-top: 8px; */
+    padding-left: 20px;
+}
+.restaurant-rating-text {
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: 200;
+    /* padding-top: 8px; */
+    padding-left : 4px;
+}
+
+.restaurant-delivery-time {
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: 200;
+    /* padding-top: 8px; */
+    padding-left : 4px;
+}
+
+.restaurant-details-divider {
+    padding : 0px 8px;
+    font-family: monospace;
+    
+}
+
+
+.restaurant-offerings {
+    font-family: monospace;
+    font-size: 12px;
+    font-weight: 200;
+    padding-top: 8px;
+    padding-left : 20px;
+    color: darkgray;
 }
