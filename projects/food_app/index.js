@@ -1,626 +1,1737 @@
 import ReactDOM from "react-dom/client";
 
-let res_details = [
-    {
-          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-          "info": {
-                "id": "1079490",
-                "name": "Khake Dekho",
-                "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/4/16/facef209-0011-4bba-83a7-e7c166df90b8_1079490.jpg",
-                "locality": "GHOSHPARA MORE",
-                "areaName": "Dhupguri",
-                "costForTwo": "₹200 for two",
-                "cuisines": [
-                      "Chinese",
-                      "Biryani",
-                      "South Indian",
-                      "Indian",
-                      "Street Food",
-                      "Snacks",
-                      "Home Food",
-                      "Fast Food",
-                      "North Indian"
-                ],
-                "avgRating": 3.7,
-                "parentId": "117008",
-                "avgRatingString": "3.7",
-                "totalRatingsString": "21",
-                "sla": {
-                      "deliveryTime": 36,
-                      "lastMileTravel": 1.4,
-                      "serviceability": "SERVICEABLE",
-                      "slaString": "35-45 mins",
-                      "lastMileTravelString": "1.4 km",
-                      "iconType": "ICON_TYPE_EMPTY"
-                },
-                "availability": {
-                      "nextCloseTime": "2025-10-13 23:00:00",
-                      "opened": true
-                },
-                "badges": { },
-                "isOpen": true,
-                "type": "F",
-                "badgesV2": {
-                      "entityBadges": {
-                            "imageBased": { },
-                            "textBased": { },
-                            "textExtendedBadges": { }
-                      }
-                },
-                "aggregatedDiscountInfoV3": {
-                      "header": "20% OFF",
-                      "subHeader": "UPTO ₹50"
-                },
-                "orderabilityCommunication": {
-                      "title": { },
-                      "subTitle": { },
-                      "message": { },
-                      "customIcon": { }
-                },
-                "differentiatedUi": {
-                      "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                      "differentiatedUiMediaDetails": {
-                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                            "lottie": { },
-                            "video": { }
-                      }
-                },
-                "reviewsSummary": { },
-                "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                "restaurantOfferPresentationInfo": { },
-                "externalRatings": {
-                      "aggregatedRating": {
-                            "rating": "--"
-                      }
-                },
-                "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-          },
-          "analytics": {
-                "context": "seo-data-48bad064-0fcb-4ae6-b3bd-4bb4fd0f6f1b"
-          },
-          "cta": {
-                "link": "https://www.swiggy.com/city/dhupguri/khake-dekho-ghoshpara-more-dhupguri-rest1079490",
-                "text": "RESTAURANT_MENU",
-                "type": "WEBLINK"
-          },
-          "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-    },
-    {
-          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-          "info": {
-                "id": "793919",
-                "name": "Hotel Meghnath Palace",
-                "cloudinaryImageId": "c76121f8b580679bed111dfd039caade",
-                "locality": "Jalpaiguri",
-                "areaName": "Dhupguri Locality",
-                "costForTwo": "₹350 for two",
-                "cuisines": [
-                      "Chinese",
-                      "North Indian",
-                      "Indian"
-                ],
-                "avgRating": 3.5,
-                "parentId": "474679",
-                "avgRatingString": "3.5",
-                "totalRatingsString": "104",
-                "sla": {
-                      "deliveryTime": 34,
-                      "lastMileTravel": 0.8,
-                      "serviceability": "SERVICEABLE",
-                      "slaString": "30-40 mins",
-                      "lastMileTravelString": "0.8 km",
-                      "iconType": "ICON_TYPE_EMPTY"
-                },
-                "availability": {
-                      "nextCloseTime": "2025-10-13 23:00:00",
-                      "opened": true
-                },
-                "badges": { },
-                "isOpen": true,
-                "aggregatedDiscountInfoV2": { },
-                "type": "F",
-                "badgesV2": {
-                      "entityBadges": {
-                            "imageBased": { },
-                            "textBased": { },
-                            "textExtendedBadges": { }
-                      }
-                },
-                "orderabilityCommunication": {
-                      "title": { },
-                      "subTitle": { },
-                      "message": { },
-                      "customIcon": { }
-                },
-                "differentiatedUi": {
-                      "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                      "differentiatedUiMediaDetails": {
-                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                            "lottie": { },
-                            "video": { }
-                      }
-                },
-                "reviewsSummary": { },
-                "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                "restaurantOfferPresentationInfo": { },
-                "externalRatings": {
-                      "aggregatedRating": {
-                            "rating": "--"
-                      }
-                },
-                "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-          },
-          "analytics": {
-                "context": "seo-data-48bad064-0fcb-4ae6-b3bd-4bb4fd0f6f1b"
-          },
-          "cta": {
-                "link": "https://www.swiggy.com/city/dhupguri/hotel-meghnath-palace-jalpaiguri-dhupguri-locality-rest793919",
-                "text": "RESTAURANT_MENU",
-                "type": "WEBLINK"
-          },
-          "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-    },
-    {
-          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-          "info": {
-                "id": "793648",
-                "name": "Foodies Corner",
-                "cloudinaryImageId": "f6f6d3ec142600421a4694e3b4ef8665",
-                "locality": "College Para",
-                "areaName": "Dhupguri",
-                "costForTwo": "₹150 for two",
-                "cuisines": [
-                      "Sweets",
-                      "Snacks"
-                ],
-                "avgRating": 2.4,
-                "parentId": "3357",
-                "avgRatingString": "2.4",
-                "totalRatingsString": "11",
-                "sla": {
-                      "deliveryTime": 44,
-                      "lastMileTravel": 3.9,
-                      "serviceability": "SERVICEABLE",
-                      "slaString": "40-45 mins",
-                      "lastMileTravelString": "3.9 km",
-                      "iconType": "ICON_TYPE_EMPTY"
-                },
-                "availability": {
-                      "nextOpenTimeMessage": "Opens next at 10 am, tomorrow"
-                },
-                "badges": {
-                      "imageBadges": [
-                            {
-                                  "imageId": "v1695133679/badges/Pure_Veg111.png",
-                                  "description": "pureveg"
-                            }
-                      ]
-                },
-                "aggregatedDiscountInfoV2": { },
-                "type": "F",
-                "badgesV2": {
-                      "entityBadges": {
-                            "imageBased": {
-                                  "badgeObject": [
-                                        {
-                                              "attributes": {
-                                                    "description": "pureveg",
-                                                    "imageId": "v1695133679/badges/Pure_Veg111.png"
-                                              }
-                                        }
-                                  ]
-                            },
-                            "textBased": { },
-                            "textExtendedBadges": { }
-                      }
-                },
-                "orderabilityCommunication": {
-                      "title": { },
-                      "subTitle": { },
-                      "message": { },
-                      "customIcon": { }
-                },
-                "differentiatedUi": {
-                      "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                      "differentiatedUiMediaDetails": {
-                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                            "lottie": { },
-                            "video": { }
-                      }
-                },
-                "reviewsSummary": { },
-                "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                "restaurantOfferPresentationInfo": { },
-                "externalRatings": {
-                      "aggregatedRating": {
-                            "rating": "5.0",
-                            "ratingCount": "<3"
-                      },
-                      "source": "GOOGLE",
-                      "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
-                },
-                "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-          },
-          "analytics": {
-                "context": "seo-data-48bad064-0fcb-4ae6-b3bd-4bb4fd0f6f1b"
-          },
-          "cta": {
-                "link": "https://www.swiggy.com/city/dhupguri/foodies-corner-college-para-dhupguri-rest793648",
-                "text": "RESTAURANT_MENU",
-                "type": "WEBLINK"
-          },
-          "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-    },
-    {
-          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-          "info": {
-                "id": "1004214",
-                "name": "Annapurni's",
-                "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/3/17/0f715471-56a4-4458-9a24-431317c9d88f_1004214.jpg",
-                "locality": "Dhupguri",
-                "areaName": "Dhupguri",
-                "costForTwo": "₹200 for two",
-                "cuisines": [
-                      "Bengali",
-                      "Street Food",
-                      "Snacks",
-                      "Fast Food"
-                ],
-                "parentId": "585285",
-                "avgRatingString": "--",
-                "sla": {
-                      "deliveryTime": 43,
-                      "lastMileTravel": 3.6,
-                      "serviceability": "SERVICEABLE",
-                      "slaString": "40-45 mins",
-                      "lastMileTravelString": "3.6 km",
-                      "iconType": "ICON_TYPE_EMPTY"
-                },
-                "availability": {
-                      "nextOpenTimeMessage": "Opens next at 10 am, tomorrow"
-                },
-                "badges": { },
-                "aggregatedDiscountInfoV2": { },
-                "type": "F",
-                "badgesV2": {
-                      "entityBadges": {
-                            "imageBased": { },
-                            "textBased": { },
-                            "textExtendedBadges": { }
-                      }
-                },
-                "orderabilityCommunication": {
-                      "title": { },
-                      "subTitle": { },
-                      "message": { },
-                      "customIcon": { }
-                },
-                "differentiatedUi": {
-                      "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                      "differentiatedUiMediaDetails": {
-                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                            "lottie": { },
-                            "video": { }
-                      }
-                },
-                "reviewsSummary": { },
-                "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                "restaurantOfferPresentationInfo": { },
-                "externalRatings": {
-                      "aggregatedRating": {
-                            "rating": "--"
-                      }
-                },
-                "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-          },
-          "analytics": {
-                "context": "seo-data-48bad064-0fcb-4ae6-b3bd-4bb4fd0f6f1b"
-          },
-          "cta": {
-                "link": "https://www.swiggy.com/city/dhupguri/annapurnis-dhupguri-rest1004214",
-                "text": "RESTAURANT_MENU",
-                "type": "WEBLINK"
-          },
-          "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-    },
-    {
-          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-          "info": {
-                "id": "841113",
-                "name": "Aashirwad Biryani",
-                "cloudinaryImageId": "da2592e0d25f079cbf9aedf436cabf6f",
-                "locality": "Dhupguri",
-                "areaName": "Dhupguri Locality",
-                "costForTwo": "₹200 for two",
-                "cuisines": [
-                      "Biryani"
-                ],
-                "avgRating": 3.8,
-                "parentId": "498563",
-                "avgRatingString": "3.8",
-                "totalRatingsString": "155",
-                "sla": {
-                      "deliveryTime": 32,
-                      "lastMileTravel": 0.4,
-                      "serviceability": "SERVICEABLE",
-                      "slaString": "30-35 mins",
-                      "lastMileTravelString": "0.4 km",
-                      "iconType": "ICON_TYPE_EMPTY"
-                },
-                "availability": {
-                      "nextOpenTimeMessage": "Opens next at 11 am, tomorrow"
-                },
-                "badges": { },
-                "aggregatedDiscountInfoV2": { },
-                "type": "F",
-                "badgesV2": {
-                      "entityBadges": {
-                            "imageBased": { },
-                            "textBased": { },
-                            "textExtendedBadges": { }
-                      }
-                },
-                "orderabilityCommunication": {
-                      "title": { },
-                      "subTitle": { },
-                      "message": { },
-                      "customIcon": { }
-                },
-                "differentiatedUi": {
-                      "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                      "differentiatedUiMediaDetails": {
-                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                            "lottie": { },
-                            "video": { }
-                      }
-                },
-                "reviewsSummary": { },
-                "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                "restaurantOfferPresentationInfo": { },
-                "externalRatings": {
-                      "aggregatedRating": {
-                            "rating": "--"
-                      }
-                },
-                "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-          },
-          "analytics": {
-                "context": "seo-data-48bad064-0fcb-4ae6-b3bd-4bb4fd0f6f1b"
-          },
-          "cta": {
-                "link": "https://www.swiggy.com/city/dhupguri/aashirwad-biryani-dhupguri-locality-rest841113",
-                "text": "RESTAURANT_MENU",
-                "type": "WEBLINK"
-          },
-          "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-    },
-    {
-          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-          "info": {
-                "id": "793163",
-                "name": "Cafe Yugen",
-                "cloudinaryImageId": "83c81326c5587c2f89d7a3247b06f144",
-                "locality": "Satsangapara",
-                "areaName": "Dhupguri Locality",
-                "costForTwo": "₹350 for two",
-                "cuisines": [
-                      "Chinese",
-                      "Indian"
-                ],
-                "avgRating": 3.6,
-                "parentId": "54500",
-                "avgRatingString": "3.6",
-                "totalRatingsString": "50",
-                "sla": {
-                      "deliveryTime": 40,
-                      "lastMileTravel": 2.5,
-                      "serviceability": "SERVICEABLE",
-                      "slaString": "35-40 mins",
-                      "lastMileTravelString": "2.5 km",
-                      "iconType": "ICON_TYPE_EMPTY"
-                },
-                "availability": {
-                      "nextOpenTimeMessage": "Opens next at 11 am, tomorrow"
-                },
-                "badges": { },
-                "type": "F",
-                "badgesV2": {
-                      "entityBadges": {
-                            "imageBased": { },
-                            "textBased": { },
-                            "textExtendedBadges": { }
-                      }
-                },
-                "aggregatedDiscountInfoV3": {
-                      "header": "50% OFF",
-                      "subHeader": "UPTO ₹100"
-                },
-                "orderabilityCommunication": {
-                      "title": { },
-                      "subTitle": { },
-                      "message": { },
-                      "customIcon": { }
-                },
-                "differentiatedUi": {
-                      "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                      "differentiatedUiMediaDetails": {
-                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                            "lottie": { },
-                            "video": { }
-                      }
-                },
-                "reviewsSummary": { },
-                "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                "restaurantOfferPresentationInfo": { },
-                "externalRatings": {
-                      "aggregatedRating": {
-                            "rating": "--"
-                      }
-                },
-                "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-          },
-          "analytics": {
-                "context": "seo-data-48bad064-0fcb-4ae6-b3bd-4bb4fd0f6f1b"
-          },
-          "cta": {
-                "link": "https://www.swiggy.com/city/dhupguri/cafe-yugen-satsangapara-dhupguri-locality-rest793163",
-                "text": "RESTAURANT_MENU",
-                "type": "WEBLINK"
-          },
-          "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-    },
-    {
-          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-          "info": {
-                "id": "1101165",
-                "name": "Monginis",
-                "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/5/23/08205d7b-6fce-4d34-b6a1-324fd27f84ba_1101165.jpg",
-                "locality": "Dhupguri",
-                "areaName": "Dhupguri",
-                "costForTwo": "₹200 for two",
-                "cuisines": [
-                      "Cafe"
-                ],
-                "avgRating": 4,
-                "parentId": "5007",
-                "avgRatingString": "4.0",
-                "totalRatingsString": "22",
-                "sla": {
-                      "deliveryTime": 16,
-                      "lastMileTravel": 0.7,
-                      "serviceability": "SERVICEABLE",
-                      "slaString": "15-20 mins",
-                      "lastMileTravelString": "0.7 km",
-                      "iconType": "ICON_TYPE_EMPTY"
-                },
-                "availability": {
-                      "nextOpenTimeMessage": "Opens next at 11 am, tomorrow"
-                },
-                "badges": { },
-                "type": "F",
-                "badgesV2": {
-                      "entityBadges": {
-                            "imageBased": { },
-                            "textBased": { },
-                            "textExtendedBadges": { }
-                      }
-                },
-                "aggregatedDiscountInfoV3": {
-                      "header": "50% OFF",
-                      "subHeader": "UPTO ₹100"
-                },
-                "orderabilityCommunication": {
-                      "title": { },
-                      "subTitle": { },
-                      "message": { },
-                      "customIcon": { }
-                },
-                "differentiatedUi": {
-                      "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                      "differentiatedUiMediaDetails": {
-                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                            "lottie": { },
-                            "video": { }
-                      }
-                },
-                "reviewsSummary": { },
-                "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                "isNewlyOnboarded": true,
-                "restaurantOfferPresentationInfo": { },
-                "externalRatings": {
-                      "aggregatedRating": {
-                            "rating": "--"
-                      }
-                },
-                "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-          },
-          "analytics": {
-                "context": "seo-data-48bad064-0fcb-4ae6-b3bd-4bb4fd0f6f1b"
-          },
-          "cta": {
-                "link": "https://www.swiggy.com/city/dhupguri/monginis-dhupguri-rest1101165",
-                "text": "RESTAURANT_MENU",
-                "type": "WEBLINK"
-          },
-          "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-    },
-    {
-          "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-          "info": {
-                "id": "793098",
-                "name": "Tapri The Tea House",
-                "cloudinaryImageId": "1e756ee8d230b65d570f7e8e70f7062c",
-                "locality": "Purba Magurmari",
-                "areaName": "Dhupguri Locality",
-                "costForTwo": "₹150 for two",
-                "cuisines": [
-                      "Chinese",
-                      "North Indian",
-                      "Fast Food"
-                ],
-                "avgRating": 4.5,
-                "parentId": "470845",
-                "avgRatingString": "4.5",
-                "totalRatingsString": "23",
-                "sla": {
-                      "deliveryTime": 39,
-                      "lastMileTravel": 1.8,
-                      "serviceability": "SERVICEABLE",
-                      "slaString": "35-40 mins",
-                      "lastMileTravelString": "1.8 km",
-                      "iconType": "ICON_TYPE_EMPTY"
-                },
-                "availability": {
-                      "nextOpenTimeMessage": "Opens next at 11 am, tomorrow"
-                },
-                "badges": { },
-                "type": "F",
-                "badgesV2": {
-                      "entityBadges": {
-                            "imageBased": { },
-                            "textBased": { },
-                            "textExtendedBadges": { }
-                      }
-                },
-                "aggregatedDiscountInfoV3": {
-                      "header": "60% OFF",
-                      "subHeader": "UPTO ₹120"
-                },
-                "orderabilityCommunication": {
-                      "title": { },
-                      "subTitle": { },
-                      "message": { },
-                      "customIcon": { }
-                },
-                "differentiatedUi": {
-                      "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                      "differentiatedUiMediaDetails": {
-                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                            "lottie": { },
-                            "video": { }
-                      }
-                },
-                "reviewsSummary": { },
-                "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                "restaurantOfferPresentationInfo": { },
-                "externalRatings": {
-                      "aggregatedRating": {
-                            "rating": "--"
-                      }
-                },
-                "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-          },
-          "analytics": {
-                "context": "seo-data-48bad064-0fcb-4ae6-b3bd-4bb4fd0f6f1b"
-          },
-          "cta": {
-                "link": "https://www.swiggy.com/city/dhupguri/tapri-the-tea-house-purba-magurmari-dhupguri-locality-rest793098",
-                "text": "RESTAURANT_MENU",
-                "type": "WEBLINK"
-          },
-          "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-    }
-];
+let resArray =  [
+
+      {
+            "info": {
+                  "id": "425549",
+                  "name": "KFC",
+                  "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/10/17/eeaa8f51-d2ea-4b39-a39b-1f242284b1b2_425549.JPG",
+                  "locality": "Nripendra Narayan Raod",
+                  "areaName": "Cooch Behar Locality",
+                  "costForTwo": "₹400 for two",
+                  "cuisines": [
+                        "Burgers",
+                        "Fast Food",
+                        "Rolls & Wraps"
+                  ],
+                  "avgRating": 4.4,
+                  "parentId": "547",
+                  "avgRatingString": "4.4",
+                  "totalRatingsString": "2.7K+",
+                  "sla": {
+                        "deliveryTime": 26,
+                        "lastMileTravel": 3,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "25-30 mins",
+                        "lastMileTravelString": "3.0 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                  },
+                  "availability": {
+                        "nextCloseTime": "2025-10-22 23:00:00",
+                        "opened": true
+                  },
+                  "badges": { },
+                  "isOpen": true,
+                  "type": "F",
+                  "badgesV2": {
+                        "entityBadges": {
+                              "imageBased": { },
+                              "textBased": { },
+                              "textExtendedBadges": { }
+                        }
+                  },
+                  "aggregatedDiscountInfoV3": {
+                        "header": "ITEMS",
+                        "subHeader": "AT ₹119"
+                  },
+                  "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                              "lottie": { },
+                              "video": { }
+                        }
+                  },
+                  "reviewsSummary": { },
+                  "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                  "restaurantOfferPresentationInfo": { },
+                  "externalRatings": {
+                        "aggregatedRating": {
+                              "rating": "--"
+                        }
+                  },
+                  "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+            },
+            "analytics": {
+                  "context": "seo-data-5671815d-c840-40a9-bd5b-de1004c63b6f"
+            },
+            "cta": {
+                  "link": "https://www.swiggy.com/city/cooch-behar/kfc-nripendra-narayan-raod-cooch-behar-locality-rest425549",
+                  "type": "WEBLINK"
+            }
+      },
+      {
+            "info": {
+                  "id": "419294",
+                  "name": "Mitali Restaurant",
+                  "cloudinaryImageId": "jfadsdrcg8see2w1bmfq",
+                  "locality": "Rup Narayan Road",
+                  "areaName": "Coochbehar Locality",
+                  "costForTwo": "₹300 for two",
+                  "cuisines": [
+                        "North Indian",
+                        "Biryani",
+                        "Chinese"
+                  ],
+                  "avgRating": 4.4,
+                  "parentId": "233348",
+                  "avgRatingString": "4.4",
+                  "totalRatingsString": "2.7K+",
+                  "sla": {
+                        "deliveryTime": 23,
+                        "lastMileTravel": 1.5,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "20-25 mins",
+                        "lastMileTravelString": "1.5 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                  },
+                  "availability": {
+                        "nextCloseTime": "2025-10-22 22:00:00",
+                        "opened": true
+                  },
+                  "badges": {
+                        "imageBadges": [
+                              {
+                                    "imageId": "android/static-assets/icons/big_rx.png",
+                                    "description": "bolt!"
+                              },
+                              {
+                                    "imageId": "Rxawards/_CATEGORY-North%20Indian.png",
+                                    "description": "Delivery!"
+                              }
+                        ]
+                  },
+                  "isOpen": true,
+                  "type": "F",
+                  "badgesV2": {
+                        "entityBadges": {
+                              "imageBased": {
+                                    "badgeObject": [
+                                          {
+                                                "attributes": {
+                                                      "description": "bolt!",
+                                                      "imageId": "android/static-assets/icons/big_rx.png"
+                                                }
+                                          },
+                                          {
+                                                "attributes": {
+                                                      "description": "Delivery!",
+                                                      "imageId": "Rxawards/_CATEGORY-North%20Indian.png"
+                                                }
+                                          }
+                                    ]
+                              },
+                              "textBased": { },
+                              "textExtendedBadges": { }
+                        }
+                  },
+                  "aggregatedDiscountInfoV3": {
+                        "header": "₹75 OFF",
+                        "subHeader": "ABOVE ₹199",
+                        "discountTag": "FLAT DEAL"
+                  },
+                  "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                              "lottie": { },
+                              "video": { }
+                        }
+                  },
+                  "reviewsSummary": { },
+                  "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                  "restaurantOfferPresentationInfo": { },
+                  "externalRatings": {
+                        "aggregatedRating": {
+                              "rating": "--"
+                        }
+                  },
+                  "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+            },
+            "analytics": {
+                  "context": "seo-data-5671815d-c840-40a9-bd5b-de1004c63b6f"
+            },
+            "cta": {
+                  "link": "https://www.swiggy.com/city/cooch-behar/mitali-restaurant-rup-narayan-road-coochbehar-locality-rest419294",
+                  "type": "WEBLINK"
+            }
+      },
+      {
+            "info": {
+                  "id": "420015",
+                  "name": "Trishna Restaurant",
+                  "cloudinaryImageId": "idxmhtnprtb1lcp7hdmy",
+                  "locality": "Rup Narayan Road",
+                  "areaName": "Coochbehar Locality",
+                  "costForTwo": "₹250 for two",
+                  "cuisines": [
+                        "South Indian",
+                        "Chinese"
+                  ],
+                  "avgRating": 4.4,
+                  "parentId": "217889",
+                  "avgRatingString": "4.4",
+                  "totalRatingsString": "2.3K+",
+                  "sla": {
+                        "deliveryTime": 21,
+                        "lastMileTravel": 1.5,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "20-25 mins",
+                        "lastMileTravelString": "1.5 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                  },
+                  "availability": {
+                        "nextCloseTime": "2025-10-22 22:00:00",
+                        "opened": true
+                  },
+                  "badges": {
+                        "imageBadges": [
+                              {
+                                    "imageId": "android/static-assets/icons/big_rx.png",
+                                    "description": "bolt!"
+                              }
+                        ]
+                  },
+                  "isOpen": true,
+                  "type": "F",
+                  "badgesV2": {
+                        "entityBadges": {
+                              "imageBased": {
+                                    "badgeObject": [
+                                          {
+                                                "attributes": {
+                                                      "description": "bolt!",
+                                                      "imageId": "android/static-assets/icons/big_rx.png"
+                                                }
+                                          }
+                                    ]
+                              },
+                              "textBased": { },
+                              "textExtendedBadges": { }
+                        }
+                  },
+                  "aggregatedDiscountInfoV3": {
+                        "header": "₹75 OFF",
+                        "subHeader": "ABOVE ₹199",
+                        "discountTag": "FLAT DEAL"
+                  },
+                  "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                              "lottie": { },
+                              "video": { }
+                        }
+                  },
+                  "reviewsSummary": { },
+                  "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                  "restaurantOfferPresentationInfo": { },
+                  "externalRatings": {
+                        "aggregatedRating": {
+                              "rating": "--"
+                        }
+                  },
+                  "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+            },
+            "analytics": {
+                  "context": "seo-data-5671815d-c840-40a9-bd5b-de1004c63b6f"
+            },
+            "cta": {
+                  "link": "https://www.swiggy.com/city/cooch-behar/trishna-restaurant-rup-narayan-road-coochbehar-locality-rest420015",
+                  "type": "WEBLINK"
+            }
+      },
+      {
+            "info": {
+                  "id": "426465",
+                  "name": "Aayaat Biryani",
+                  "cloudinaryImageId": "dfsb3n9y9n4zumipxowr",
+                  "locality": "Raj Rajendra Narayan Road",
+                  "areaName": "Coochbehar Locality",
+                  "costForTwo": "₹300 for two",
+                  "cuisines": [
+                        "Biryani",
+                        "rolls"
+                  ],
+                  "avgRating": 4.3,
+                  "parentId": "237344",
+                  "avgRatingString": "4.3",
+                  "totalRatingsString": "1.9K+",
+                  "sla": {
+                        "deliveryTime": 25,
+                        "lastMileTravel": 1.2,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "25-30 mins",
+                        "lastMileTravelString": "1.2 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                  },
+                  "availability": {
+                        "nextCloseTime": "2025-10-22 23:00:00",
+                        "opened": true
+                  },
+                  "badges": {
+                        "imageBadges": [
+                              {
+                                    "imageId": "android/static-assets/icons/big_rx.png",
+                                    "description": "bolt!"
+                              }
+                        ],
+                        "textExtendedBadges": [
+                              {
+                                    "iconId": "Akash/Listing%20badge.png",
+                                    "shortDescription": "Price Match Promise",
+                                    "fontColor": "#7E808C"
+                              }
+                        ]
+                  },
+                  "isOpen": true,
+                  "type": "F",
+                  "badgesV2": {
+                        "entityBadges": {
+                              "imageBased": {
+                                    "badgeObject": [
+                                          {
+                                                "attributes": {
+                                                      "description": "bolt!",
+                                                      "imageId": "android/static-assets/icons/big_rx.png"
+                                                }
+                                          }
+                                    ]
+                              },
+                              "textBased": { },
+                              "textExtendedBadges": {
+                                    "badgeObject": [
+                                          {
+                                                "attributes": {
+                                                      "description": "",
+                                                      "fontColor": "#7E808C",
+                                                      "iconId": "Akash/Listing%20badge.png",
+                                                      "shortDescription": "Price Match Promise"
+                                                }
+                                          }
+                                    ]
+                              }
+                        }
+                  },
+                  "aggregatedDiscountInfoV3": {
+                        "header": "20% OFF",
+                        "subHeader": "UPTO ₹50"
+                  },
+                  "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                              "lottie": { },
+                              "video": { }
+                        }
+                  },
+                  "reviewsSummary": { },
+                  "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                  "restaurantOfferPresentationInfo": { },
+                  "externalRatings": {
+                        "aggregatedRating": {
+                              "rating": "--"
+                        }
+                  },
+                  "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+            },
+            "analytics": {
+                  "context": "seo-data-5671815d-c840-40a9-bd5b-de1004c63b6f"
+            },
+            "cta": {
+                  "link": "https://www.swiggy.com/city/cooch-behar/aayaat-biryani-raj-rajendra-narayan-road-coochbehar-locality-rest426465",
+                  "type": "WEBLINK"
+            }
+      },
+      {
+            "info": {
+                  "id": "610693",
+                  "name": "Sly Panda",
+                  "cloudinaryImageId": "wour6bd6x0xijwdqt8th",
+                  "locality": "Debibari Lamba Dighi",
+                  "areaName": "Coochbehar Locality",
+                  "costForTwo": "₹450 for two",
+                  "cuisines": [
+                        "Chinese"
+                  ],
+                  "avgRating": 4.6,
+                  "parentId": "471324",
+                  "avgRatingString": "4.6",
+                  "totalRatingsString": "349",
+                  "sla": {
+                        "deliveryTime": 30,
+                        "lastMileTravel": 0.8,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "25-30 mins",
+                        "lastMileTravelString": "0.8 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                  },
+                  "availability": {
+                        "nextCloseTime": "2025-10-22 22:00:00",
+                        "opened": true
+                  },
+                  "badges": {
+                        "imageBadges": [
+                              {
+                                    "imageId": "android/static-assets/icons/big_rx.png",
+                                    "description": "bolt!"
+                              }
+                        ]
+                  },
+                  "isOpen": true,
+                  "type": "F",
+                  "badgesV2": {
+                        "entityBadges": {
+                              "imageBased": {
+                                    "badgeObject": [
+                                          {
+                                                "attributes": {
+                                                      "description": "bolt!",
+                                                      "imageId": "android/static-assets/icons/big_rx.png"
+                                                }
+                                          }
+                                    ]
+                              },
+                              "textBased": { },
+                              "textExtendedBadges": { }
+                        }
+                  },
+                  "aggregatedDiscountInfoV3": {
+                        "header": "₹75 OFF",
+                        "subHeader": "ABOVE ₹199",
+                        "discountTag": "FLAT DEAL"
+                  },
+                  "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                              "lottie": { },
+                              "video": { }
+                        }
+                  },
+                  "reviewsSummary": { },
+                  "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                  "restaurantOfferPresentationInfo": { },
+                  "externalRatings": {
+                        "aggregatedRating": {
+                              "rating": "--"
+                        }
+                  },
+                  "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+            },
+            "analytics": {
+                  "context": "seo-data-5671815d-c840-40a9-bd5b-de1004c63b6f"
+            },
+            "cta": {
+                  "link": "https://www.swiggy.com/city/cooch-behar/sly-panda-debibari-lamba-dighi-coochbehar-locality-rest610693",
+                  "type": "WEBLINK"
+            }
+      },
+      {
+            "info": {
+                  "id": "563450",
+                  "name": "Cafe Yugen",
+                  "cloudinaryImageId": "bq4qngzdt4n6hvtyvrmo",
+                  "locality": "Dhamatal",
+                  "areaName": "Coochbehar Locality",
+                  "costForTwo": "₹300 for two",
+                  "cuisines": [
+                        "Chinese",
+                        "North Indian",
+                        "Burgers"
+                  ],
+                  "avgRating": 4.3,
+                  "parentId": "54500",
+                  "avgRatingString": "4.3",
+                  "totalRatingsString": "1.0K+",
+                  "sla": {
+                        "deliveryTime": 33,
+                        "lastMileTravel": 3,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "30-35 mins",
+                        "lastMileTravelString": "3.0 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                  },
+                  "availability": {
+                        "nextCloseTime": "2025-10-22 22:30:00",
+                        "opened": true
+                  },
+                  "badges": {
+                        "textExtendedBadges": [
+                              {
+                                    "iconId": "Akash/Listing%20badge.png",
+                                    "shortDescription": "Price Match Promise",
+                                    "fontColor": "#7E808C"
+                              }
+                        ]
+                  },
+                  "isOpen": true,
+                  "type": "F",
+                  "badgesV2": {
+                        "entityBadges": {
+                              "imageBased": { },
+                              "textBased": { },
+                              "textExtendedBadges": {
+                                    "badgeObject": [
+                                          {
+                                                "attributes": {
+                                                      "description": "",
+                                                      "fontColor": "#7E808C",
+                                                      "iconId": "Akash/Listing%20badge.png",
+                                                      "shortDescription": "Price Match Promise"
+                                                }
+                                          }
+                                    ]
+                              }
+                        }
+                  },
+                  "aggregatedDiscountInfoV3": {
+                        "header": "₹125 OFF",
+                        "subHeader": "ABOVE ₹199",
+                        "discountTag": "FLAT DEAL"
+                  },
+                  "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                              "lottie": { },
+                              "video": { }
+                        }
+                  },
+                  "reviewsSummary": { },
+                  "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                  "restaurantOfferPresentationInfo": { },
+                  "externalRatings": {
+                        "aggregatedRating": {
+                              "rating": "--"
+                        }
+                  },
+                  "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+            },
+            "analytics": {
+                  "context": "seo-data-5671815d-c840-40a9-bd5b-de1004c63b6f"
+            },
+            "cta": {
+                  "link": "https://www.swiggy.com/city/cooch-behar/cafe-yugen-dhamatal-coochbehar-locality-rest563450",
+                  "type": "WEBLINK"
+            }
+      },
+      {
+            "info": {
+                  "id": "421418",
+                  "name": "M. G. Fast Food",
+                  "cloudinaryImageId": "cn7vfsqxi1jnl9rgdil0",
+                  "locality": "Rup Narayan Road",
+                  "areaName": "Coochbehar Locality",
+                  "costForTwo": "₹280 for two",
+                  "cuisines": [
+                        "Biryani",
+                        "Chinese",
+                        "Fast Food"
+                  ],
+                  "avgRating": 4.1,
+                  "parentId": "127115",
+                  "avgRatingString": "4.1",
+                  "totalRatingsString": "8.6K+",
+                  "sla": {
+                        "deliveryTime": 26,
+                        "lastMileTravel": 1.5,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "25-30 mins",
+                        "lastMileTravelString": "1.5 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                  },
+                  "availability": {
+                        "nextCloseTime": "2025-10-22 23:00:00",
+                        "opened": true
+                  },
+                  "badges": {
+                        "imageBadges": [
+                              {
+                                    "imageId": "android/static-assets/icons/big_rx.png",
+                                    "description": "bolt!"
+                              },
+                              {
+                                    "imageId": "Rxawards/_CATEGORY-Chinese.png",
+                                    "description": "Delivery!"
+                              },
+                              {
+                                    "imageId": "Ratnesh_Badges/Rx_Awards_2025/_Legendary%20Restaurants.png",
+                                    "description": "Delivery!"
+                              }
+                        ],
+                        "textExtendedBadges": [
+                              {
+                                    "iconId": "Akash/Listing%20badge.png",
+                                    "shortDescription": "Price Match Promise",
+                                    "fontColor": "#7E808C"
+                              }
+                        ]
+                  },
+                  "isOpen": true,
+                  "type": "F",
+                  "badgesV2": {
+                        "entityBadges": {
+                              "imageBased": {
+                                    "badgeObject": [
+                                          {
+                                                "attributes": {
+                                                      "description": "bolt!",
+                                                      "imageId": "android/static-assets/icons/big_rx.png"
+                                                }
+                                          },
+                                          {
+                                                "attributes": {
+                                                      "description": "Delivery!",
+                                                      "imageId": "Rxawards/_CATEGORY-Chinese.png"
+                                                }
+                                          },
+                                          {
+                                                "attributes": {
+                                                      "description": "Delivery!",
+                                                      "imageId": "Ratnesh_Badges/Rx_Awards_2025/_Legendary%20Restaurants.png"
+                                                }
+                                          }
+                                    ]
+                              },
+                              "textBased": { },
+                              "textExtendedBadges": {
+                                    "badgeObject": [
+                                          {
+                                                "attributes": {
+                                                      "description": "",
+                                                      "fontColor": "#7E808C",
+                                                      "iconId": "Akash/Listing%20badge.png",
+                                                      "shortDescription": "Price Match Promise"
+                                                }
+                                          }
+                                    ]
+                              }
+                        }
+                  },
+                  "aggregatedDiscountInfoV3": {
+                        "header": "₹201 OFF",
+                        "subHeader": "ABOVE ₹699",
+                        "discountTag": "FLAT DEAL"
+                  },
+                  "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                              "lottie": { },
+                              "video": { }
+                        }
+                  },
+                  "reviewsSummary": { },
+                  "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                  "restaurantOfferPresentationInfo": { },
+                  "externalRatings": {
+                        "aggregatedRating": {
+                              "rating": "--"
+                        }
+                  },
+                  "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+            },
+            "analytics": {
+                  "context": "seo-data-5671815d-c840-40a9-bd5b-de1004c63b6f"
+            },
+            "cta": {
+                  "link": "https://www.swiggy.com/city/cooch-behar/m-g-fast-food-rup-narayan-road-coochbehar-locality-rest421418",
+                  "type": "WEBLINK"
+            }
+      },
+      {
+            "info": {
+                  "id": "682754",
+                  "name": "Kolkata Golden Biryani Center",
+                  "cloudinaryImageId": "a08f4602a7f1c60df5ae37b879c88826",
+                  "locality": "Maa Bhabani Biri Chowpathi",
+                  "areaName": "Coochbehar Locality",
+                  "costForTwo": "₹280 for two",
+                  "cuisines": [
+                        "Biryani"
+                  ],
+                  "avgRating": 4,
+                  "parentId": "313475",
+                  "avgRatingString": "4.0",
+                  "totalRatingsString": "1.2K+",
+                  "sla": {
+                        "deliveryTime": 16,
+                        "lastMileTravel": 2.2,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "15-20 mins",
+                        "lastMileTravelString": "2.2 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                  },
+                  "availability": {
+                        "nextCloseTime": "2025-10-22 23:30:00",
+                        "opened": true
+                  },
+                  "badges": {
+                        "imageBadges": [
+                              {
+                                    "imageId": "android/static-assets/icons/big_rx.png",
+                                    "description": "bolt!"
+                              },
+                              {
+                                    "imageId": "Rxawards/_CATEGORY-Biryani.png",
+                                    "description": "Delivery!"
+                              }
+                        ]
+                  },
+                  "isOpen": true,
+                  "type": "F",
+                  "badgesV2": {
+                        "entityBadges": {
+                              "imageBased": {
+                                    "badgeObject": [
+                                          {
+                                                "attributes": {
+                                                      "description": "bolt!",
+                                                      "imageId": "android/static-assets/icons/big_rx.png"
+                                                }
+                                          },
+                                          {
+                                                "attributes": {
+                                                      "description": "Delivery!",
+                                                      "imageId": "Rxawards/_CATEGORY-Biryani.png"
+                                                }
+                                          }
+                                    ]
+                              },
+                              "textBased": { },
+                              "textExtendedBadges": { }
+                        }
+                  },
+                  "aggregatedDiscountInfoV3": {
+                        "header": "ITEMS",
+                        "subHeader": "AT ₹149"
+                  },
+                  "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                              "lottie": { },
+                              "video": { }
+                        }
+                  },
+                  "reviewsSummary": { },
+                  "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                  "restaurantOfferPresentationInfo": { },
+                  "externalRatings": {
+                        "aggregatedRating": {
+                              "rating": "--"
+                        }
+                  },
+                  "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+            },
+            "analytics": {
+                  "context": "seo-data-5671815d-c840-40a9-bd5b-de1004c63b6f"
+            },
+            "cta": {
+                  "link": "https://www.swiggy.com/city/cooch-behar/kolkata-golden-biryani-center-maa-bhabani-biri-chowpathi-coochbehar-locality-rest682754",
+                  "type": "WEBLINK"
+            }
+      },
+      {
+            "info": {
+                  "id": "624675",
+                  "name": "Chef Shawarma",
+                  "cloudinaryImageId": "e3iabydinjp8uoigxd71",
+                  "locality": "Khagrabari",
+                  "areaName": "Coochbehar Locality",
+                  "costForTwo": "₹300 for two",
+                  "cuisines": [
+                        "North Indian",
+                        "Indian",
+                        "Kebabs",
+                        "rolls",
+                        "Chinese"
+                  ],
+                  "avgRating": 4.2,
+                  "parentId": "371657",
+                  "avgRatingString": "4.2",
+                  "totalRatingsString": "522",
+                  "sla": {
+                        "deliveryTime": 45,
+                        "lastMileTravel": 3,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "45-55 mins",
+                        "lastMileTravelString": "3.0 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                  },
+                  "availability": {
+                        "nextCloseTime": "2025-10-22 22:30:00",
+                        "opened": true
+                  },
+                  "badges": {
+                        "textExtendedBadges": [
+                              {
+                                    "iconId": "Akash/Listing%20badge.png",
+                                    "shortDescription": "Price Match Promise",
+                                    "fontColor": "#7E808C"
+                              }
+                        ]
+                  },
+                  "isOpen": true,
+                  "type": "F",
+                  "badgesV2": {
+                        "entityBadges": {
+                              "imageBased": { },
+                              "textBased": { },
+                              "textExtendedBadges": {
+                                    "badgeObject": [
+                                          {
+                                                "attributes": {
+                                                      "description": "",
+                                                      "fontColor": "#7E808C",
+                                                      "iconId": "Akash/Listing%20badge.png",
+                                                      "shortDescription": "Price Match Promise"
+                                                }
+                                          }
+                                    ]
+                              }
+                        }
+                  },
+                  "aggregatedDiscountInfoV3": {
+                        "header": "ITEMS",
+                        "subHeader": "AT ₹99"
+                  },
+                  "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                              "lottie": { },
+                              "video": { }
+                        }
+                  },
+                  "reviewsSummary": { },
+                  "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                  "restaurantOfferPresentationInfo": { },
+                  "externalRatings": {
+                        "aggregatedRating": {
+                              "rating": "--"
+                        }
+                  },
+                  "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+            },
+            "analytics": {
+                  "context": "seo-data-5671815d-c840-40a9-bd5b-de1004c63b6f"
+            },
+            "cta": {
+                  "link": "https://www.swiggy.com/city/cooch-behar/chef-shawarma-khagrabari-coochbehar-locality-rest624675",
+                  "type": "WEBLINK"
+            }
+      },
+      {
+            "info": {
+                  "id": "419282",
+                  "name": "Restaurant Mahalaxmi",
+                  "cloudinaryImageId": "wawmevase0yczymlbsjt",
+                  "locality": "Sunity Road",
+                  "areaName": "Coochbehar Locality",
+                  "costForTwo": "₹300 for two",
+                  "cuisines": [
+                        "Chinese",
+                        "Indian",
+                        "North Indian"
+                  ],
+                  "avgRating": 4.4,
+                  "parentId": "373543",
+                  "avgRatingString": "4.4",
+                  "totalRatingsString": "740",
+                  "sla": {
+                        "deliveryTime": 27,
+                        "lastMileTravel": 1.2,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "25-30 mins",
+                        "lastMileTravelString": "1.2 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                  },
+                  "availability": {
+                        "nextCloseTime": "2025-10-22 22:00:00",
+                        "opened": true
+                  },
+                  "badges": {
+                        "imageBadges": [
+                              {
+                                    "imageId": "android/static-assets/icons/big_rx.png",
+                                    "description": "bolt!"
+                              }
+                        ],
+                        "textExtendedBadges": [
+                              {
+                                    "iconId": "Akash/Listing%20badge.png",
+                                    "shortDescription": "Price Match Promise",
+                                    "fontColor": "#7E808C"
+                              }
+                        ]
+                  },
+                  "isOpen": true,
+                  "aggregatedDiscountInfoV2": { },
+                  "type": "F",
+                  "badgesV2": {
+                        "entityBadges": {
+                              "imageBased": {
+                                    "badgeObject": [
+                                          {
+                                                "attributes": {
+                                                      "description": "bolt!",
+                                                      "imageId": "android/static-assets/icons/big_rx.png"
+                                                }
+                                          }
+                                    ]
+                              },
+                              "textBased": { },
+                              "textExtendedBadges": {
+                                    "badgeObject": [
+                                          {
+                                                "attributes": {
+                                                      "description": "",
+                                                      "fontColor": "#7E808C",
+                                                      "iconId": "Akash/Listing%20badge.png",
+                                                      "shortDescription": "Price Match Promise"
+                                                }
+                                          }
+                                    ]
+                              }
+                        }
+                  },
+                  "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                              "lottie": { },
+                              "video": { }
+                        }
+                  },
+                  "reviewsSummary": { },
+                  "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                  "restaurantOfferPresentationInfo": { },
+                  "externalRatings": {
+                        "aggregatedRating": {
+                              "rating": "--"
+                        }
+                  },
+                  "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+            },
+            "analytics": {
+                  "context": "seo-data-5671815d-c840-40a9-bd5b-de1004c63b6f"
+            },
+            "cta": {
+                  "link": "https://www.swiggy.com/city/cooch-behar/restaurant-mahalaxmi-sunity-road-coochbehar-locality-rest419282",
+                  "type": "WEBLINK"
+            }
+      },
+      {
+            "info": {
+                  "id": "470661",
+                  "name": "Hotel Yubraj & Restaurant Monarch",
+                  "cloudinaryImageId": "lomr0a7lfmky1iqfvgpj",
+                  "locality": "Biswa Singha Road",
+                  "areaName": "Coochbehar Locality",
+                  "costForTwo": "₹500 for two",
+                  "cuisines": [
+                        "Chinese",
+                        "Tandoor",
+                        "Biryani",
+                        "North Indian",
+                        "Indian",
+                        "Kebabs"
+                  ],
+                  "avgRating": 4.2,
+                  "parentId": "282762",
+                  "avgRatingString": "4.2",
+                  "totalRatingsString": "803",
+                  "sla": {
+                        "deliveryTime": 30,
+                        "lastMileTravel": 1.4,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "25-30 mins",
+                        "lastMileTravelString": "1.4 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                  },
+                  "availability": {
+                        "nextCloseTime": "2025-10-22 22:15:00",
+                        "opened": true
+                  },
+                  "badges": {
+                        "textExtendedBadges": [
+                              {
+                                    "iconId": "Akash/Listing%20badge.png",
+                                    "shortDescription": "Price Match Promise",
+                                    "fontColor": "#7E808C"
+                              }
+                        ]
+                  },
+                  "isOpen": true,
+                  "aggregatedDiscountInfoV2": { },
+                  "type": "F",
+                  "badgesV2": {
+                        "entityBadges": {
+                              "imageBased": { },
+                              "textBased": { },
+                              "textExtendedBadges": {
+                                    "badgeObject": [
+                                          {
+                                                "attributes": {
+                                                      "description": "",
+                                                      "fontColor": "#7E808C",
+                                                      "iconId": "Akash/Listing%20badge.png",
+                                                      "shortDescription": "Price Match Promise"
+                                                }
+                                          }
+                                    ]
+                              }
+                        }
+                  },
+                  "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                              "lottie": { },
+                              "video": { }
+                        }
+                  },
+                  "reviewsSummary": { },
+                  "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                  "restaurantOfferPresentationInfo": { },
+                  "externalRatings": {
+                        "aggregatedRating": {
+                              "rating": "--"
+                        }
+                  },
+                  "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+            },
+            "analytics": {
+                  "context": "seo-data-5671815d-c840-40a9-bd5b-de1004c63b6f"
+            },
+            "cta": {
+                  "link": "https://www.swiggy.com/city/cooch-behar/hotel-yubraj-and-restaurant-monarch-biswa-singha-road-coochbehar-locality-rest470661",
+                  "type": "WEBLINK"
+            }
+      },
+      {
+            "info": {
+                  "id": "486664",
+                  "name": "7th Heaven",
+                  "cloudinaryImageId": "vkqjig568spmkl8folar",
+                  "locality": "Kesab Road",
+                  "areaName": "Coochbehar Locality",
+                  "costForTwo": "₹400 for two",
+                  "cuisines": [
+                        "Burgers",
+                        "Pizzas",
+                        "Bakery"
+                  ],
+                  "avgRating": 4.6,
+                  "parentId": "19",
+                  "avgRatingString": "4.6",
+                  "totalRatingsString": "949",
+                  "sla": {
+                        "deliveryTime": 18,
+                        "lastMileTravel": 1.3,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "15-20 mins",
+                        "lastMileTravelString": "1.3 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                  },
+                  "availability": {
+                        "nextCloseTime": "2025-10-22 22:00:00",
+                        "opened": true
+                  },
+                  "badges": {
+                        "imageBadges": [
+                              {
+                                    "imageId": "android/static-assets/icons/big_rx.png",
+                                    "description": "bolt!"
+                              },
+                              {
+                                    "imageId": "v1695133679/badges/Pure_Veg111.png",
+                                    "description": "pureveg"
+                              }
+                        ]
+                  },
+                  "isOpen": true,
+                  "type": "F",
+                  "badgesV2": {
+                        "entityBadges": {
+                              "imageBased": {
+                                    "badgeObject": [
+                                          {
+                                                "attributes": {
+                                                      "description": "bolt!",
+                                                      "imageId": "android/static-assets/icons/big_rx.png"
+                                                }
+                                          },
+                                          {
+                                                "attributes": {
+                                                      "description": "pureveg",
+                                                      "imageId": "v1695133679/badges/Pure_Veg111.png"
+                                                }
+                                          }
+                                    ]
+                              },
+                              "textBased": { },
+                              "textExtendedBadges": { }
+                        }
+                  },
+                  "aggregatedDiscountInfoV3": {
+                        "header": "₹201 OFF",
+                        "subHeader": "ABOVE ₹799",
+                        "discountTag": "FLAT DEAL"
+                  },
+                  "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                              "lottie": { },
+                              "video": { }
+                        }
+                  },
+                  "reviewsSummary": { },
+                  "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                  "restaurantOfferPresentationInfo": { },
+                  "externalRatings": {
+                        "aggregatedRating": {
+                              "rating": "--"
+                        }
+                  },
+                  "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+            },
+            "analytics": {
+                  "context": "seo-data-5671815d-c840-40a9-bd5b-de1004c63b6f"
+            },
+            "cta": {
+                  "link": "https://www.swiggy.com/city/cooch-behar/7th-heaven-kesab-road-coochbehar-locality-rest486664",
+                  "type": "WEBLINK"
+            }
+      },
+      {
+            "info": {
+                  "id": "524361",
+                  "name": "Kolkata Arsalan Biryani",
+                  "cloudinaryImageId": "bvj5fieu6rzpti3bupkx",
+                  "locality": "Rup Narayan Road",
+                  "areaName": "Coochbehar Locality",
+                  "costForTwo": "₹300 for two",
+                  "cuisines": [
+                        "Biryani"
+                  ],
+                  "avgRating": 4,
+                  "parentId": "119863",
+                  "avgRatingString": "4.0",
+                  "totalRatingsString": "1.3K+",
+                  "sla": {
+                        "deliveryTime": 14,
+                        "lastMileTravel": 1.4,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "10-15 mins",
+                        "lastMileTravelString": "1.4 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                  },
+                  "availability": {
+                        "nextCloseTime": "2025-10-22 23:00:00",
+                        "opened": true
+                  },
+                  "badges": {
+                        "imageBadges": [
+                              {
+                                    "imageId": "android/static-assets/icons/big_rx.png",
+                                    "description": "bolt!"
+                              }
+                        ]
+                  },
+                  "isOpen": true,
+                  "type": "F",
+                  "badgesV2": {
+                        "entityBadges": {
+                              "imageBased": {
+                                    "badgeObject": [
+                                          {
+                                                "attributes": {
+                                                      "description": "bolt!",
+                                                      "imageId": "android/static-assets/icons/big_rx.png"
+                                                }
+                                          }
+                                    ]
+                              },
+                              "textBased": { },
+                              "textExtendedBadges": { }
+                        }
+                  },
+                  "aggregatedDiscountInfoV3": {
+                        "header": "ITEMS",
+                        "subHeader": "AT ₹139"
+                  },
+                  "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                              "lottie": { },
+                              "video": { }
+                        }
+                  },
+                  "reviewsSummary": { },
+                  "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                  "restaurantOfferPresentationInfo": { },
+                  "externalRatings": {
+                        "aggregatedRating": {
+                              "rating": "--"
+                        }
+                  },
+                  "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+            },
+            "analytics": {
+                  "context": "seo-data-5671815d-c840-40a9-bd5b-de1004c63b6f"
+            },
+            "cta": {
+                  "link": "https://www.swiggy.com/city/cooch-behar/kolkata-arsalan-biryani-rup-narayan-road-coochbehar-locality-rest524361",
+                  "type": "WEBLINK"
+            }
+      },
+      {
+            "info": {
+                  "id": "523093",
+                  "name": "Domino's Pizza",
+                  "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/8/8/d4cd0a8d-eb31-49cb-af17-3133e92eea59_523093.JPG",
+                  "locality": "Bs Road",
+                  "areaName": "Cooch Behar Locality",
+                  "costForTwo": "₹400 for two",
+                  "cuisines": [
+                        "Pizzas",
+                        "Italian",
+                        "Pastas",
+                        "Desserts"
+                  ],
+                  "avgRating": 4.4,
+                  "parentId": "2456",
+                  "avgRatingString": "4.4",
+                  "totalRatingsString": "1.8K+",
+                  "sla": {
+                        "deliveryTime": 25,
+                        "lastMileTravel": 1.7,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "20-25 mins",
+                        "lastMileTravelString": "1.7 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                  },
+                  "availability": {
+                        "nextCloseTime": "2025-10-22 23:59:00",
+                        "opened": true
+                  },
+                  "badges": {
+                        "textExtendedBadges": [
+                              {
+                                    "iconId": "Ratnesh_Badges/free%20del%20icon.png",
+                                    "shortDescription": "Free Delivery",
+                                    "fontColor": "#7E808C"
+                              }
+                        ]
+                  },
+                  "isOpen": true,
+                  "type": "F",
+                  "badgesV2": {
+                        "entityBadges": {
+                              "imageBased": { },
+                              "textBased": { },
+                              "textExtendedBadges": {
+                                    "badgeObject": [
+                                          {
+                                                "attributes": {
+                                                      "description": "",
+                                                      "fontColor": "#7E808C",
+                                                      "iconId": "Ratnesh_Badges/free%20del%20icon.png",
+                                                      "shortDescription": "Free Delivery"
+                                                }
+                                          }
+                                    ]
+                              }
+                        }
+                  },
+                  "aggregatedDiscountInfoV3": {
+                        "header": "ITEMS",
+                        "subHeader": "AT ₹59"
+                  },
+                  "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                              "lottie": { },
+                              "video": { }
+                        }
+                  },
+                  "reviewsSummary": { },
+                  "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                  "restaurantOfferPresentationInfo": { },
+                  "externalRatings": {
+                        "aggregatedRating": {
+                              "rating": "--"
+                        }
+                  },
+                  "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+            },
+            "analytics": {
+                  "context": "seo-data-5671815d-c840-40a9-bd5b-de1004c63b6f"
+            },
+            "cta": {
+                  "link": "https://www.swiggy.com/city/cooch-behar/dominos-pizza-bs-road-cooch-behar-locality-rest523093",
+                  "type": "WEBLINK"
+            }
+      },
+      {
+            "info": {
+                  "id": "420345",
+                  "name": "Golpo - Desi Kadhai",
+                  "cloudinaryImageId": "kx1qj14qnxppiien866m",
+                  "locality": "Prm Market",
+                  "areaName": "Coochbehar Locality",
+                  "costForTwo": "₹400 for two",
+                  "cuisines": [
+                        "Indian",
+                        "North Indian",
+                        "Pizzas",
+                        "Bakery",
+                        "Chinese",
+                        "American"
+                  ],
+                  "avgRating": 4.3,
+                  "parentId": "387327",
+                  "avgRatingString": "4.3",
+                  "totalRatingsString": "273",
+                  "sla": {
+                        "deliveryTime": 36,
+                        "lastMileTravel": 3,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "35-45 mins",
+                        "lastMileTravelString": "3.0 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                  },
+                  "availability": {
+                        "nextCloseTime": "2025-10-22 22:30:00",
+                        "opened": true
+                  },
+                  "badges": { },
+                  "isOpen": true,
+                  "aggregatedDiscountInfoV2": { },
+                  "type": "F",
+                  "badgesV2": {
+                        "entityBadges": {
+                              "imageBased": { },
+                              "textBased": { },
+                              "textExtendedBadges": { }
+                        }
+                  },
+                  "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                              "lottie": { },
+                              "video": { }
+                        }
+                  },
+                  "reviewsSummary": { },
+                  "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                  "restaurantOfferPresentationInfo": { },
+                  "externalRatings": {
+                        "aggregatedRating": {
+                              "rating": "--"
+                        }
+                  },
+                  "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+            },
+            "analytics": {
+                  "context": "seo-data-5671815d-c840-40a9-bd5b-de1004c63b6f"
+            },
+            "cta": {
+                  "link": "https://www.swiggy.com/city/cooch-behar/golpo-desi-kadhai-prm-market-coochbehar-locality-rest420345",
+                  "type": "WEBLINK"
+            }
+      },
+      {
+            "info": {
+                  "id": "683295",
+                  "name": "Baskin Robbins - Ice Cream Desserts",
+                  "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/4/24/0c96e8eb-8d87-4344-a5ed-eadcc12fe602_683295.JPG",
+                  "locality": "COOCH BEHAR MUNICIPALITY",
+                  "areaName": "Coochbehar",
+                  "costForTwo": "₹250 for two",
+                  "cuisines": [
+                        "Desserts",
+                        "Ice Cream"
+                  ],
+                  "avgRating": 4.6,
+                  "veg": true,
+                  "parentId": "5588",
+                  "avgRatingString": "4.6",
+                  "totalRatingsString": "271",
+                  "sla": {
+                        "deliveryTime": 15,
+                        "lastMileTravel": 1.3,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "10-15 mins",
+                        "lastMileTravelString": "1.3 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                  },
+                  "availability": {
+                        "nextCloseTime": "2025-10-22 22:30:00",
+                        "opened": true
+                  },
+                  "badges": {
+                        "imageBadges": [
+                              {
+                                    "imageId": "android/static-assets/icons/big_rx.png",
+                                    "description": "bolt!"
+                              },
+                              {
+                                    "imageId": "v1695133679/badges/Pure_Veg111.png",
+                                    "description": "pureveg"
+                              }
+                        ]
+                  },
+                  "isOpen": true,
+                  "type": "F",
+                  "badgesV2": {
+                        "entityBadges": {
+                              "imageBased": {
+                                    "badgeObject": [
+                                          {
+                                                "attributes": {
+                                                      "description": "bolt!",
+                                                      "imageId": "android/static-assets/icons/big_rx.png"
+                                                }
+                                          },
+                                          {
+                                                "attributes": {
+                                                      "description": "pureveg",
+                                                      "imageId": "v1695133679/badges/Pure_Veg111.png"
+                                                }
+                                          }
+                                    ]
+                              },
+                              "textBased": { },
+                              "textExtendedBadges": { }
+                        }
+                  },
+                  "aggregatedDiscountInfoV3": {
+                        "header": "50% OFF",
+                        "subHeader": "UPTO ₹100"
+                  },
+                  "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                              "lottie": { },
+                              "video": { }
+                        }
+                  },
+                  "reviewsSummary": { },
+                  "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                  "restaurantOfferPresentationInfo": { },
+                  "externalRatings": {
+                        "aggregatedRating": {
+                              "rating": "--"
+                        }
+                  },
+                  "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+            },
+            "analytics": {
+                  "context": "seo-data-5671815d-c840-40a9-bd5b-de1004c63b6f"
+            },
+            "cta": {
+                  "link": "https://www.swiggy.com/city/cooch-behar/baskin-robbins-ice-cream-desserts-municipality-coochbehar-rest683295",
+                  "type": "WEBLINK"
+            }
+      },
+      {
+            "info": {
+                  "id": "420340",
+                  "name": "Golpo-Little China",
+                  "cloudinaryImageId": "yhocp88hrqx6gu3kosdb",
+                  "locality": "Prm Market",
+                  "areaName": "Coochbehar Locality",
+                  "costForTwo": "₹350 for two",
+                  "cuisines": [
+                        "Chinese",
+                        "North Indian",
+                        "Pizzas",
+                        "Bakery",
+                        "South Indian",
+                        "American"
+                  ],
+                  "avgRating": 4.5,
+                  "parentId": "88682",
+                  "avgRatingString": "4.5",
+                  "totalRatingsString": "290",
+                  "sla": {
+                        "deliveryTime": 34,
+                        "lastMileTravel": 3,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "30-35 mins",
+                        "lastMileTravelString": "3.0 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                  },
+                  "availability": {
+                        "nextCloseTime": "2025-10-22 22:30:00",
+                        "opened": true
+                  },
+                  "badges": { },
+                  "isOpen": true,
+                  "aggregatedDiscountInfoV2": { },
+                  "type": "F",
+                  "badgesV2": {
+                        "entityBadges": {
+                              "imageBased": { },
+                              "textBased": { },
+                              "textExtendedBadges": { }
+                        }
+                  },
+                  "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                              "lottie": { },
+                              "video": { }
+                        }
+                  },
+                  "reviewsSummary": { },
+                  "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                  "restaurantOfferPresentationInfo": { },
+                  "externalRatings": {
+                        "aggregatedRating": {
+                              "rating": "--"
+                        }
+                  },
+                  "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+            },
+            "analytics": {
+                  "context": "seo-data-5671815d-c840-40a9-bd5b-de1004c63b6f"
+            },
+            "cta": {
+                  "link": "https://www.swiggy.com/city/cooch-behar/golpo-little-china-prm-market-coochbehar-locality-rest420340",
+                  "type": "WEBLINK"
+            }
+      },
+      {
+            "info": {
+                  "id": "568212",
+                  "name": "Hoichoi cake's & Snack's",
+                  "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/8/1/b8f17a9e-37f3-460e-80a5-ace43a5bc1c6_568212 (1).jpg",
+                  "locality": "Khagrabari",
+                  "areaName": "Cooch Behar Locality",
+                  "costForTwo": "₹200 for two",
+                  "cuisines": [
+                        "Chinese",
+                        "Snacks",
+                        "North Indian"
+                  ],
+                  "avgRating": 4.3,
+                  "parentId": "537461",
+                  "avgRatingString": "4.3",
+                  "totalRatingsString": "23",
+                  "sla": {
+                        "deliveryTime": 26,
+                        "lastMileTravel": 4.2,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "25-30 mins",
+                        "lastMileTravelString": "4.2 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                  },
+                  "availability": {
+                        "nextCloseTime": "2025-10-22 22:00:00",
+                        "opened": true
+                  },
+                  "badges": { },
+                  "isOpen": true,
+                  "aggregatedDiscountInfoV2": { },
+                  "type": "F",
+                  "badgesV2": {
+                        "entityBadges": {
+                              "imageBased": { },
+                              "textBased": { },
+                              "textExtendedBadges": { }
+                        }
+                  },
+                  "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                              "lottie": { },
+                              "video": { }
+                        }
+                  },
+                  "reviewsSummary": { },
+                  "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                  "restaurantOfferPresentationInfo": { },
+                  "externalRatings": {
+                        "aggregatedRating": {
+                              "rating": "--"
+                        }
+                  },
+                  "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+            },
+            "analytics": {
+                  "context": "seo-data-5671815d-c840-40a9-bd5b-de1004c63b6f"
+            },
+            "cta": {
+                  "link": "https://www.swiggy.com/city/cooch-behar/hoichoi-cakes-and-snacks-khagrabari-cooch-behar-locality-rest568212",
+                  "type": "WEBLINK"
+            }
+      },
+      {
+            "info": {
+                  "id": "468573",
+                  "name": "Hotel Prova",
+                  "cloudinaryImageId": "wqzm3bn2osgbusbfko2z",
+                  "locality": "Chakchaka",
+                  "areaName": "Coochbehar Locality",
+                  "costForTwo": "₹450 for two",
+                  "cuisines": [
+                        "Indian",
+                        "North Indian"
+                  ],
+                  "avgRating": 3.3,
+                  "parentId": "281503",
+                  "avgRatingString": "3.3",
+                  "totalRatingsString": "24",
+                  "sla": {
+                        "deliveryTime": 49,
+                        "lastMileTravel": 5.5,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "45-50 mins",
+                        "lastMileTravelString": "5.5 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                  },
+                  "availability": {
+                        "nextCloseTime": "2025-10-22 22:00:00",
+                        "opened": true
+                  },
+                  "badges": { },
+                  "isOpen": true,
+                  "type": "F",
+                  "badgesV2": {
+                        "entityBadges": {
+                              "imageBased": { },
+                              "textBased": { },
+                              "textExtendedBadges": { }
+                        }
+                  },
+                  "aggregatedDiscountInfoV3": {
+                        "header": "20% OFF",
+                        "subHeader": "UPTO ₹50"
+                  },
+                  "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                              "lottie": { },
+                              "video": { }
+                        }
+                  },
+                  "reviewsSummary": { },
+                  "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                  "restaurantOfferPresentationInfo": { },
+                  "externalRatings": {
+                        "aggregatedRating": {
+                              "rating": "--"
+                        }
+                  },
+                  "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+            },
+            "analytics": {
+                  "context": "seo-data-5671815d-c840-40a9-bd5b-de1004c63b6f"
+            },
+            "cta": {
+                  "link": "https://www.swiggy.com/city/cooch-behar/hotel-prova-chakchaka-coochbehar-locality-rest468573",
+                  "type": "WEBLINK"
+            }
+      },
+      {
+            "info": {
+                  "id": "498499",
+                  "name": "The Rich Table",
+                  "cloudinaryImageId": "cjuotewjxyyduoakrasv",
+                  "locality": "Keshab Road",
+                  "areaName": "Coochbehar Locality",
+                  "costForTwo": "₹400 for two",
+                  "cuisines": [
+                        "North Indian",
+                        "Indian",
+                        "Kebabs",
+                        "rolls",
+                        "Chinese"
+                  ],
+                  "avgRating": 4,
+                  "parentId": "282862",
+                  "avgRatingString": "4.0",
+                  "totalRatingsString": "272",
+                  "sla": {
+                        "deliveryTime": 34,
+                        "lastMileTravel": 1.2,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "30-35 mins",
+                        "lastMileTravelString": "1.2 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                  },
+                  "availability": {
+                        "nextCloseTime": "2025-10-22 22:00:00",
+                        "opened": true
+                  },
+                  "badges": {
+                        "textExtendedBadges": [
+                              {
+                                    "iconId": "Akash/Listing%20badge.png",
+                                    "shortDescription": "Price Match Promise",
+                                    "fontColor": "#7E808C"
+                              }
+                        ]
+                  },
+                  "isOpen": true,
+                  "type": "F",
+                  "badgesV2": {
+                        "entityBadges": {
+                              "imageBased": { },
+                              "textBased": { },
+                              "textExtendedBadges": {
+                                    "badgeObject": [
+                                          {
+                                                "attributes": {
+                                                      "description": "",
+                                                      "fontColor": "#7E808C",
+                                                      "iconId": "Akash/Listing%20badge.png",
+                                                      "shortDescription": "Price Match Promise"
+                                                }
+                                          }
+                                    ]
+                              }
+                        }
+                  },
+                  "aggregatedDiscountInfoV3": {
+                        "header": "₹300 OFF",
+                        "subHeader": "ABOVE ₹1199",
+                        "discountTag": "FLAT DEAL"
+                  },
+                  "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                              "lottie": { },
+                              "video": { }
+                        }
+                  },
+                  "reviewsSummary": { },
+                  "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                  "restaurantOfferPresentationInfo": { },
+                  "externalRatings": {
+                        "aggregatedRating": {
+                              "rating": "--"
+                        }
+                  },
+                  "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+            },
+            "analytics": {
+                  "context": "seo-data-5671815d-c840-40a9-bd5b-de1004c63b6f"
+            },
+            "cta": {
+                  "link": "https://www.swiggy.com/city/cooch-behar/the-rich-table-keshab-road-coochbehar-locality-rest498499",
+                  "type": "WEBLINK"
+            }
+      }
+
+]
+
+
  
 
 
@@ -653,40 +1764,42 @@ const Header = () => {
 
 // Card component
 const CardComponent = (props) => {
+      // let res_name = props['res_data'].info.name;
+      const { resData } = props;
+      const { name,avgRating,sla,cuisines,areaName,cloudinaryImageId } = resData?.info
+
       return(
-      
-    
+
         <div className="card-structure">
             <div className="card-contents">
                 <div className="restaurant-img-container">
-                <img className="restaurant-img" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/12/9/fb3fdd64-979e-42cf-84b0-8ac04b8b87f9_425549.JPG" />
+                <img className="restaurant-img" src={`https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/${cloudinaryImageId}`} />
                 </div>
                 
                 
                 <div className="restaurant-details">
                     <div className="restaurant-name">
                         <span >
-                              {console.log(props['res_data'].info.name)}
-                            {props['res_data'].info.name}
+                              {name}
                         </span>
                     </div>
                     <div className="restaurant-other-details">
                         <img src="https://cdn-icons-png.flaticon.com/512/5323/5323711.png" className="rating-icon"/>
                         <span className="restaurant-rating-text">
-                            4.4
+                            {avgRating}
                         </span>
                         <span className="restaurant-details-divider">
                             |
                         </span>
                         <span className="restaurant-delivery-time">
-                        20-25 mins
+                        {sla.slaString}
                         </span>
                     </div>
                 </div>
                 <div className="restaurant-offerings">
-                    <span>Burgers, Fast Food, Rolls & Wraps</span>
+                    <span>{cuisines.join(",")}</span>
                     <br></br>
-                    <span>Cooch Behar Locality</span>
+                    <span>{areaName}</span>
                 </div>
             </div>
         </div>
@@ -701,21 +1814,11 @@ const BodyComponent = () => {
         <div className="card-space">
             
                 <div className="restaurant-card-container">
-                    <CardComponent res_data={res_details[0]}/>
-                    <CardComponent/>
-                    <CardComponent/>
-                    <CardComponent/>
-                    <CardComponent/>
-                    <CardComponent/>
-                    <CardComponent/>
-                    <CardComponent/>
-                    <CardComponent/>
-                    <CardComponent/>
-                    <CardComponent/>
-                    <CardComponent/>
-                    <CardComponent/>
-                    <CardComponent/>
-                    <CardComponent/>
+                  {resArray.map((restaurant) => (
+                        <CardComponent key={restaurant.info.id} resData= {restaurant} />
+                  ))}
+                    
+                    
                 </div>
             
         </div>
