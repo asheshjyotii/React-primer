@@ -1,7 +1,16 @@
 .body {
     padding-left: 7%;
+    margin-top: 5px;
 
 
+}
+.filter-button{
+    width: 100px ;
+    height: 50px;
+    background-color: green;
+    color: whitesmoke;
+    border-radius: 10px;
+    cursor:pointer;
 }
 .restaurant-card-container{
     display: flex;
@@ -70,6 +79,7 @@
     padding-top: 10px;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 .search-box {
     margin-left: auto;
@@ -87,6 +97,7 @@
     height: 25px;
     border-radius: 6px;
     font-family: monospace;
+    cursor: pointer;
 }
 
 /* restaurant card */
