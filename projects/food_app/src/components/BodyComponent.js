@@ -1,14 +1,19 @@
 import CardComponent from "./CardComponent";
-import resArray from "../utils/mock"
+import resArray from "../utils/mock";
+import {useState} from "react";
+
+
 
 
 const BodyComponent = () => {
+  let [RestaurantsList, setRestaurantsList] = useState(resArray)
     return(
   <div className="body">
       <button className="filter-button"
       onClick = {
         ()=> {
-          restaurants = resArray.filter((res)=> {res.info.avgRating>4})
+          setRestaurantsList(RestaurantsList.filter((res)=> res.info.avgRating>4.4))
+           
         }
       }
       >
@@ -17,7 +22,7 @@ const BodyComponent = () => {
       <div className="card-space">
           
               <div className="restaurant-card-container">
-                {resArray.map((restaurant) => (
+                {RestaurantsList.map((restaurant) => (
                       <CardComponent key={restaurant.info.id} resData= {restaurant} />
                 ))}
                   

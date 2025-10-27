@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "This is a food ordering app (first react app)",
   "main": "index.js",
-  "targets":{
+  "targets": {
     "main": false
   },
   "scripts": {
